@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Lucida Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.container{
+    border: 5px solid rgb(254, 6, 6);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.box{
+    border:3px solid black;
+    width:50%;
+    height:50%;
+    color: #000000;
+    font-weight:bolder;
+}
+.Red{
+    background-color: red;
+}
+.Blue{
+    background-color: blue;
+}
+.Green{
+    background-color: green;
+}
+.Yellow{
+    background-color: yellow;
+}
